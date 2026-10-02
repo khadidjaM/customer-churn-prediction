@@ -111,3 +111,19 @@ A balanced Logistic Regression model was therefore trained using:
 
 ```python
 class_weight="balanced"
+
+### Balanced Logistic Regression Results
+
+The balanced Logistic Regression model achieved:
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 73.81% |
+| Precision (Churn) | 50.43% |
+| Recall (Churn) | 78.34% |
+| F1-score (Churn) | 61.36% |
+| ROC-AUC | 0.842 |
+
+Compared with the original Logistic Regression model, the balanced model increased recall for churned customers from 55.88% to 78.34%.
+
+This means that the model identifies more potential churners, but also produces more false positives. This trade-off is important when the objective is to detect as many potential churners as possible.
