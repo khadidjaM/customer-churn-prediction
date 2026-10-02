@@ -111,6 +111,7 @@ A balanced Logistic Regression model was therefore trained using:
 
 ```python
 class_weight="balanced"
+```
 
 ### Balanced Logistic Regression Results
 
